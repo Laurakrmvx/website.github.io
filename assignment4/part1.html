@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Part 1: Media Queries</title>
+    <style>
+      /* Default font size (for mobile devices) */
+      body {
+        font-size: 14px;
+      }
+
+      h1 {
+        font-size: 24px;
+      }
+
+      /* Tablet font size */
+      @media (min-width: 768px) {
+        body {
+          font-size: 16px;
+        }
+
+        h1 {
+          font-size: 32px;
+        }
+      }
+
+      /* Desktop font size */
+      @media (min-width: 1024px) {
+        body {
+          font-size: 18px;
+        }
+
+        h1 {
+          font-size: 36px;
+        }
+      }
+
+      /* Boxes layout */
+      .box {
+        width: 30%;
+        height: 100px;
+        background-color: lightblue;
+        margin: 10px;
+        display: inline-block;
+        text-align: center;
+        line-height: 100px; /* Vertically center text */
+      }
+
+      /* Tablet layout */
+      @media (max-width: 768px) {
+        .box {
+          width: 48%;
+        }
+      }
+
+      /* Mobile layout */
+      @media (max-width: 480px) {
+        .box {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>My fourth webpage</h1>
+    <p>This is some paragraph lalala</p>
+
+    <h1>This is three boxes in a row:</h1>
+    <div class="box">Box1</div>
+    <div class="box">Box2</div>
+    <div class="box">Box3</div>
+    <p><a href="index.html">Back to home</a></p>
+  </body>
+</html>
