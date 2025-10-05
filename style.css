@@ -1,0 +1,164 @@
+<style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #bcdae7;
+        color: #333333;
+      }
+
+      /* Header */
+      .header {
+        background-color: #ce8884;
+        color: #ffffff;
+        padding: 20px;
+        text-align: center;
+      }
+
+      /* Navigation */
+      .nav {
+        background-color: #bed5ae;
+        text-align: center;
+        padding: 10px;
+      }
+      .nav a {
+        background-color: #ce8884;
+        color: #ffffff;
+        text-decoration: none;
+        padding: 10px 18px;
+        display: inline-block;
+        border-radius: 8px;
+        margin: 5px;
+        transition: 0.3s;
+      }
+      .nav a:hover {
+        background-color: #fbd3c4;
+        color: #333333;
+      }
+
+      /* Sidebar & Content */
+      .sidebar {
+        float: left;
+        width: 25%;
+        background-color: #fbd3c4;
+        padding: 15px;
+        border-right: 3px solid #bed5ae;
+        box-sizing: border-box;
+        min-height: 400px;
+      }
+      .content {
+        float: right;
+        width: 70%;
+        background-color: #ffffff;
+        padding: 15px;
+        border-left: 3px solid #bed5ae;
+        box-sizing: border-box;
+        min-height: 400px;
+      }
+
+      /* Footer */
+      .footer {
+        clear: both;
+        background-color: #ce8884;
+        color: #ffffff;
+        text-align: center;
+        padding: 12px;
+        margin-top: 20px;
+        font-weight: bold;
+      }
+
+      /* Table Styling */
+      table {
+        border-collapse: collapse;
+        width: 100%;
+        margin-top: 15px;
+      }
+      th,
+      td {
+        border: 1px solid #ce8884;
+        padding: 8px;
+        text-align: center;
+      }
+      th {
+        background-color: #bed5ae;
+        color: #333333;
+      }
+      tr:nth-child(even) {
+        background-color: #fbd3c4;
+      }
+      .highlight-row {
+        background-color: #ce8884 !important;
+        color: #ffffff;
+      }
+
+      /* Form Styling */
+      .form-container {
+        width: 60%;
+        margin: 20px auto;
+        background-color: #fbd3c4;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+      }
+      .form-container label {
+        font-weight: bold;
+        display: block;
+        margin-top: 10px;
+        color: #333333;
+      }
+      .form-container input,
+      .form-container select,
+      .form-container textarea {
+        width: 95%;
+        padding: 8px;
+        margin-top: 5px;
+        border-radius: 6px;
+        border: 1px solid #ce8884;
+      }
+      .form-container input[type="radio"] {
+        width: auto;
+      }
+      .form-container input[type="submit"] {
+        background-color: #ce8884;
+        color: #ffffff;
+        padding: 10px 16px;
+        border: none;
+        border-radius: 6px;
+        margin-top: 15px;
+        cursor: pointer;
+        transition: 0.3s;
+      }
+      .form-container input[type="submit"]:hover {
+        background-color: #bed5ae;
+        color: #333333;
+      }
+
+      /* Wireframe section */
+      .wireframe {
+        display: grid;
+        grid-template-rows: 80px 50px 1fr 50px;
+        grid-gap: 10px;
+        background-color: #fff;
+        padding: 20px;
+        border: 2px dashed #ce8884;
+        margin: 20px auto;
+        width: 80%;
+        text-align: center;
+      }
+      .wire-header,
+      .wire-nav,
+      .wire-main,
+      .wire-footer {
+        border: 2px solid #bed5ae;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        color: #333333;
+      }
+
+      img {
+        max-width: 100%;
+        border: 3px solid #bed5ae;
+        border-radius: 10px;
+      }
+    </style>

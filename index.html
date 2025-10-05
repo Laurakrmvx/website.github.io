@@ -3,172 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <title>My first website</title>
-    <style>
-      body {
-        margin: 0;
-        font-family: Arial, sans-serif;
-        background-color: #ffd9d9;
-      }
 
-      /* Header */
-      .header {
-        background-color: #102b1f;
-        color: #ffd9d9;
-        padding: 20px;
-        text-align: center;
-      }
-
-      /* Navigation */
-      .nav {
-        background-color: #bd7880;
-        text-align: center;
-        padding: 10px;
-      }
-      .nav a {
-        background-color: #4d0011;
-        color: #ffd9d9;
-        text-decoration: none;
-        padding: 10px 18px;
-        display: inline-block;
-        border-radius: 8px;
-        margin: 5px;
-        transition: 0.3s;
-      }
-      .nav a:hover {
-        background-color: #ffd9d9;
-        color: #4d0011;
-      }
-
-      /* Sidebar & Content */
-      .sidebar {
-        float: left;
-        width: 25%;
-        background-color: #ffd9d9;
-        padding: 10px 1px 10px 10px;
-        border-right: 3px solid #bd7880;
-        box-sizing: border-box;
-        min-height: 400px;
-      }
-      .content {
-        float: right;
-        width: 70%;
-        background-color: #fff;
-        padding: 15px;
-        border-left: 3px solid #bd7880;
-        box-sizing: border-box;
-        min-height: 400px;
-      }
-
-      /* Footer */
-      .footer {
-        clear: both;
-        background-color: #bd7880;
-        color: #102b1f;
-        text-align: center;
-        padding: 12px;
-        margin-top: 20px;
-        font-weight: bold;
-      }
-
-      /* Table Styling */
-      table {
-        border-collapse: collapse;
-        width: 100%;
-        margin-top: 15px;
-      }
-      th,
-      td {
-        border: 1px solid #4d0011;
-        padding: 8px;
-        text-align: center;
-      }
-      th {
-        background-color: #bd7880;
-        color: #fff;
-      }
-      tr:nth-child(even) {
-        background-color: #ffd9d9;
-      }
-      .highlight-row {
-        background-color: #4d0011 !important;
-        color: #ffd9d9;
-      }
-
-      /* Form Styling */
-      .form-container {
-        width: 60%;
-        margin: 20px auto;
-        background-color: #ffd9d9;
-        padding: 20px;
-        border-radius: 10px;
-        box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
-      }
-      .form-container label {
-        font-weight: bold;
-        display: block;
-        margin-top: 10px;
-        color: #4d0011;
-      }
-      .form-container input,
-      .form-container select,
-      .form-container textarea {
-        width: 95%;
-        padding: 8px;
-        margin-top: 5px;
-        border-radius: 6px;
-        border: 1px solid #bd7880;
-      }
-      .form-container input[type="radio"] {
-        width: auto;
-      }
-      .form-container input[type="submit"] {
-        background-color: #4d0011;
-        color: #ffd9d9;
-        padding: 10px 16px;
-        border: none;
-        border-radius: 6px;
-        margin-top: 15px;
-        cursor: pointer;
-        transition: 0.3s;
-      }
-      .form-container input[type="submit"]:hover {
-        background-color: #bd7880;
-        color: #102b1f;
-      }
-
-      /* Wireframe section */
-      .wireframe {
-        display: grid;
-        grid-template-rows: 80px 50px 1fr 50px;
-        grid-gap: 10px;
-        background-color: #fff;
-        padding: 20px;
-        border: 2px dashed #4d0011;
-        margin: 20px auto;
-        width: 80%;
-        text-align: center;
-      }
-      .wire-header,
-      .wire-nav,
-      .wire-main,
-      .wire-footer {
-        border: 2px solid #bd7880;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-weight: bold;
-        color: #4d0011;
-      }
-
-      img {
-        max-width: 100%;
-        border: 3px solid #bd7880;
-        border-radius: 10px;
-      }
-    </style>
+    <link rel="stylesheet" href="/style.css" />
   </head>
   <body>
-    <!-- Header -->
     <div class="header">
       <h1>Laura MT2404</h1>
       <p>
@@ -176,16 +14,12 @@
         about learning web programing 🤩
       </p>
     </div>
-
-    <!-- Navigation -->
     <div class="nav">
       <a href="#task1">Task 1</a>
       <a href="#task2">Task 2</a>
       <a href="#task3">Task 3</a>
       <a href="#task4">Task 4</a>
     </div>
-
-    <!-- Task 1 -->
     <div id="task1">
       <div class="sidebar">
         <h2>Menu</h2>
@@ -201,7 +35,6 @@
           <li>google</li>
           <li>spotify</li>
         </ul>
-
         <h2>my hobbies</h2>
         <ol>
           <li>Gym</li>
@@ -218,13 +51,10 @@
           alt="me"
         />
       </div>
-
       <div class="footer">
         <p>&copy; 2025 Laura MT2404. All rights reserved.</p>
       </div>
     </div>
-
-    <!-- Task 2 -->
     <div id="task2" style="padding: 20px">
       <h1>Lana Del Rey</h1>
       <h2>About</h2>
@@ -236,7 +66,7 @@
       </p>
       <h3>Timeline</h3>
       <ol>
-        <li>2005 – Began performing under stage names.</li>
+        <li>2005 - Began performing under stage names.</li>
         <li>2011 – Released "Video Games".</li>
         <li>2012 – Breakthrough with album *Born to Die*.</li>
         <li>2019 – *Norman Fucking Rockwell!* nominated for Grammy.</li>
@@ -259,8 +89,6 @@
         Learn More
       </button>
     </div>
-
-    <!-- Task 3 -->
     <div id="task3" style="padding: 20px">
       <h2>Student Grades</h2>
       <table>
@@ -290,68 +118,46 @@
           <td>B</td>
         </tr>
       </table>
-
       <h2>Feedback Form</h2>
       <div class="form-container">
         <form>
           <label for="name">Name:</label>
           <input type="text" id="name" name="name" />
-
           <label for="email">Email:</label>
           <input type="email" id="email" name="email" />
-
           <label for="role">Role:</label>
           <select id="role" name="role">
             <option>Student</option>
             <option>Teacher</option>
             <option>Other</option>
           </select>
-
           <label>Do you like this course?</label>
           <input type="radio" name="like" value="yes" /> Yes
           <input type="radio" name="like" value="no" /> No
-
           <label for="comments">Comments:</label>
           <textarea id="comments" name="comments" rows="4"></textarea>
-
           <input type="submit" value="Submit" />
         </form>
       </div>
     </div>
-
     <!-- Task 4 -->
     <div id="task4" style="padding: 0px">
       <h2>Midterm Project Wireframe</h2>
       <img
-        src="https://i.pinimg.com/1200x/a7/5b/61/a75b61f5dd541139d5cc01706c34fdf6.jpg"
+        src="https://i.pinimg.com/736x/a8/04/e2/a804e23e4f1879810a19e3e569b13c80.jpg"
+        alt="1page"
+        width="1200"
+      />
+      <img
+        src="https://i.pinimg.com/736x/81/f0/29/81f029ba6258f2f312f0225c2d87a669.jpg"
         alt="1page"
         width="1300"
       />
-      <p>1st page: Home</p>
       <img
-        src="https://i.pinimg.com/736x/c0/de/44/c0de44a62121d4577b3a761d46d19526.jpg"
-        alt="2page"
+        src="blob:https://www.pinterest.com/83f7df93-77c3-4eda-ade1-da5f10535153"
+        alt="1page"
         width="1300"
       />
-      <p>2nd page: Products</p>
-      <img
-        src="https://i.pinimg.com/736x/a6/c2/29/a6c229717866c75f94905741249790fe.jpg"
-        alt="3page"
-        width="1300"
-      />
-      <p>3rd page: About</p>
-      <img
-        src="https://i.pinimg.com/736x/15/ed/5c/15ed5c3e6ab5ea302afbbd1cfdedc5ec.jpg"
-        alt="4page"
-        width="1300"
-      />
-      <p>4th page: Contacts</p>
-      <img
-        src="https://i.pinimg.com/736x/6e/7c/52/6e7c52aed263b319774f1d7eb3156372.jpg"
-        alt="5page"
-        width="1300"
-      />
-      <p>5th page: Cart</p>
     </div>
   </body>
 </html>
